@@ -1,7 +1,7 @@
 import './ItemListContainer.css'
 import { useState, useEffect } from 'react'
 import { getProducts } from '../../asyncmock'
-//import { getProducts, getProductsByCategory } from '../../asyncmock'
+import { getProducts, getProductsByCategory } from '../../asyncmock'
 import ItemList from '../ItemList/ItemList'
 import { useParams } from 'react-router-dom'
 
@@ -47,7 +47,7 @@ const ItemListContainer = (props) => {
             })
         }
 
-    }, [categoryId]
+    }, [categoryId])
 
     if(loading) {
         return <h1>Cargando...</h1>
@@ -64,5 +64,5 @@ const ItemListContainer = (props) => {
             }
         </div>
     )
-
+}
 export default ItemListContainer
