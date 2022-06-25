@@ -1,8 +1,8 @@
-import React, { 
+import React from 'react'
   // useState 
-  useState,
-  createContext 
-} from 'react'
+  //useState,
+  //createContext 
+
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
@@ -10,6 +10,8 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 //import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { CartProvider } from './context/CartContext'
+
+
 
 
 function App() {

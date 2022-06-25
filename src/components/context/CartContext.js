@@ -38,6 +38,7 @@ export const CartProvider = ({ children }) => {
             addItem,
             removeItem,
             isInCart,
+            clearCart
             // getCartQuantity
         }}>
             { children }
