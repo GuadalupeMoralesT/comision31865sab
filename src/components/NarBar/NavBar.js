@@ -16,7 +16,7 @@ const NavBar = () => {
             
                 <NavLink to='/category/novela' className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Novela</NavLink>
                 <NavLink to='/category/romance' className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>Romance</NavLink>
-                <NavLink to='/category/ciencia ficcion' className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>ciencia ficcon</NavLink>
+                <NavLink to='/category/ciencia ficcion' className={({ isActive }) => isActive ? 'ActiveOption' : 'Option'}>ciencia ficcion</NavLink>
                
             
             </div>

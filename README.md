@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Ecommerce de una libreria
+Ecommerce de una Libreria
 
 ## Comandos para ejecutar la App
 
@@ -17,6 +17,9 @@ Instalar dependencias
 ### `npm start`
 
 Ejecutar el servidor de desarrollo 
+
+### `npm test`
+Se debe clonar el repositorio
 
 
 

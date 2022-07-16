@@ -6,7 +6,7 @@ const Counter = ({initial, stock, onAdd}) => {
     const [result, setResult] = useState(0)
     console.log(onAdd)
     useEffect(() => {
-        // setCount(prev => prev + 1)
+        
     }, [count])
 
     useEffect(() => {
@@ -45,7 +45,7 @@ const Counter = ({initial, stock, onAdd}) => {
             <button onClick={decrement}>-</button>
             <h2>{count}</h2>
             <button onClick={increment}>+</button>
-            {/* <Button handleClick={reset}>reset</Button> */}
+            
             <button onClick={() => onAdd()}>Agregar carrito</button>
         </div>
     )
